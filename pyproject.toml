@@ -1,0 +1,10 @@
+[project]
+name = "np3-convert"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+np3 = "np3_convert.parser:main"
