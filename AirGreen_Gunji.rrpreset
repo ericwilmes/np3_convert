@@ -1,0 +1,285 @@
+{
+    "creator": "Anonymous",
+    "presets": [
+        {
+            "preset": {
+                "id": "08d066eb-546d-4509-ad72-6be82d4df944",
+                "name": "AirGreen_Gunji",
+                "adjustments": {
+                    "blacks": 0,
+                    "brightness": 0,
+                    "centr\u00e9": 0,
+                    "chromaticAberrationBlueYellow": 0,
+                    "chromaticAberrationRedCyan": 0,
+                    "clarity": 0.5,
+                    "colorCalibration": {
+                        "blueHue": 0,
+                        "blueSaturation": 0,
+                        "greenHue": 0,
+                        "greenSaturation": 0,
+                        "redHue": 0,
+                        "redSaturation": 0,
+                        "shadowsTint": 0
+                    },
+                    "colorGrading": {
+                        "balance": 0,
+                        "blending": 50,
+                        "global": {
+                            "hue": 0,
+                            "luminance": 0,
+                            "saturation": 0
+                        },
+                        "highlights": {
+                            "hue": 249,
+                            "luminance": -20,
+                            "saturation": 15
+                        },
+                        "midtones": {
+                            "hue": 180,
+                            "luminance": 67,
+                            "saturation": 6
+                        },
+                        "shadows": {
+                            "hue": 243,
+                            "luminance": -24,
+                            "saturation": 8
+                        }
+                    },
+                    "colorNoiseReduction": 0,
+                    "contrast": 50,
+                    "curveMode": "point",
+                    "curves": {
+                        "blue": [
+                            {
+                                "x": 0,
+                                "y": 0
+                            },
+                            {
+                                "x": 255,
+                                "y": 255
+                            }
+                        ],
+                        "green": [
+                            {
+                                "x": 0,
+                                "y": 0
+                            },
+                            {
+                                "x": 255,
+                                "y": 255
+                            }
+                        ],
+                        "luma": [
+                            {
+                                "x": 0,
+                                "y": 0
+                            },
+                            {
+                                "x": 22,
+                                "y": 21
+                            },
+                            {
+                                "x": 45,
+                                "y": 54
+                            },
+                            {
+                                "x": 75,
+                                "y": 102
+                            },
+                            {
+                                "x": 103,
+                                "y": 145
+                            },
+                            {
+                                "x": 157,
+                                "y": 208
+                            },
+                            {
+                                "x": 208,
+                                "y": 232
+                            },
+                            {
+                                "x": 255,
+                                "y": 255
+                            }
+                        ],
+                        "red": [
+                            {
+                                "x": 0,
+                                "y": 0
+                            },
+                            {
+                                "x": 255,
+                                "y": 255
+                            }
+                        ]
+                    },
+                    "dehaze": 0,
+                    "exposure": 1.0,
+                    "flareAmount": 0,
+                    "glowAmount": 0,
+                    "grainAmount": 0,
+                    "grainRoughness": 50,
+                    "grainSize": 25,
+                    "halationAmount": 0,
+                    "highlights": 0,
+                    "hsl": {
+                        "aquas": {
+                            "hue": 0,
+                            "luminance": -35,
+                            "saturation": 65
+                        },
+                        "blues": {
+                            "hue": -50,
+                            "luminance": -40,
+                            "saturation": -10
+                        },
+                        "greens": {
+                            "hue": 75,
+                            "luminance": -50,
+                            "saturation": -45
+                        },
+                        "magentas": {
+                            "hue": 10,
+                            "luminance": 0,
+                            "saturation": -22
+                        },
+                        "oranges": {
+                            "hue": 0,
+                            "luminance": 6,
+                            "saturation": -5
+                        },
+                        "purples": {
+                            "hue": -10,
+                            "luminance": 0,
+                            "saturation": -30
+                        },
+                        "reds": {
+                            "hue": 50,
+                            "luminance": 10,
+                            "saturation": -5
+                        },
+                        "yellows": {
+                            "hue": -34,
+                            "luminance": -10,
+                            "saturation": 18
+                        }
+                    },
+                    "hue": 0,
+                    "lumaNoiseReduction": 0,
+                    "lutData": null,
+                    "lutIntensity": 100,
+                    "lutIsSceneReferred": false,
+                    "lutName": null,
+                    "lutPath": null,
+                    "lutSize": 0,
+                    "parametricCurve": {
+                        "blue": {
+                            "blackLevel": 0,
+                            "darks": 0,
+                            "highlights": 0,
+                            "lights": 0,
+                            "shadows": 0,
+                            "split1": 25,
+                            "split2": 50,
+                            "split3": 75,
+                            "whiteLevel": 0
+                        },
+                        "green": {
+                            "blackLevel": 0,
+                            "darks": 0,
+                            "highlights": 0,
+                            "lights": 0,
+                            "shadows": 0,
+                            "split1": 25,
+                            "split2": 50,
+                            "split3": 75,
+                            "whiteLevel": 0
+                        },
+                        "luma": {
+                            "blackLevel": 0,
+                            "darks": 0,
+                            "highlights": 0,
+                            "lights": 0,
+                            "shadows": 0,
+                            "split1": 25,
+                            "split2": 50,
+                            "split3": 75,
+                            "whiteLevel": 0
+                        },
+                        "red": {
+                            "blackLevel": 0,
+                            "darks": 0,
+                            "highlights": 0,
+                            "lights": 0,
+                            "shadows": 0,
+                            "split1": 25,
+                            "split2": 50,
+                            "split3": 75,
+                            "whiteLevel": 0
+                        }
+                    },
+                    "pointCurves": {
+                        "blue": [
+                            {
+                                "x": 0,
+                                "y": 0
+                            },
+                            {
+                                "x": 255,
+                                "y": 255
+                            }
+                        ],
+                        "green": [
+                            {
+                                "x": 0,
+                                "y": 0
+                            },
+                            {
+                                "x": 255,
+                                "y": 255
+                            }
+                        ],
+                        "luma": [
+                            {
+                                "x": 0,
+                                "y": 0
+                            },
+                            {
+                                "x": 255,
+                                "y": 255
+                            }
+                        ],
+                        "red": [
+                            {
+                                "x": 0,
+                                "y": 0
+                            },
+                            {
+                                "x": 255,
+                                "y": 255
+                            }
+                        ]
+                    },
+                    "saturation": 95,
+                    "shadows": 0,
+                    "sharpness": 3.75,
+                    "sharpnessThreshold": 15,
+                    "structure": -0.5,
+                    "temperature": 0,
+                    "tint": 0,
+                    "toneMapper": "basic",
+                    "vibrance": 0,
+                    "vignetteAmount": 0,
+                    "vignetteFeather": 50,
+                    "vignetteMidpoint": 50,
+                    "vignetteRoundness": 0,
+                    "whites": 0
+                },
+                "includeMasks": false,
+                "includeCropTransform": false,
+                "presetType": "style"
+            }
+        }
+    ]
+}

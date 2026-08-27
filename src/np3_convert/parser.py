@@ -3,7 +3,6 @@
 
 from dataclasses import dataclass
 from pprint import pprint
-from typing import Optional
 
 
 @dataclass
@@ -72,7 +71,7 @@ class Np3Data:
     advanced_adjustments: AdvancedAdjustments
     color_blender: ColorBlender
     color_grading: ColorGrading
-    tone_curve: Optional[ToneCurve] = None
+    tone_curve: ToneCurve | None = None
 
 
 def main():
@@ -128,10 +127,9 @@ def parse_np3(file_path: str) -> Np3Data:
     with open(file_path, "rb") as f:
         bytes = f.read()
 
-        point_count = bytes[404]
-
         tone_curve = None
-        if len(bytes) > 460:
+        if len(bytes) > 404:
+            point_count = bytes[404]
             tone_curve = ToneCurve(
                 point_count=point_count,
                 control_points=_get_control_points(bytes, point_count),

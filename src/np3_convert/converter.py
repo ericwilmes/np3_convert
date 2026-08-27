@@ -1,11 +1,14 @@
 import json
 import uuid
+from pprint import pprint
 
 from np3_convert.parser import Np3Data, parse_np3
 
 
 def main():
-    path = "CallItLove_Faloo Mi.NP3"
+    # path = "CallItLove_Faloo Mi.NP3"
+    # path = "PDX_PORTRA_V2.NP3"
+    path = "AirGreen_Gunji.NP3"
     np3_data: Np3Data = parse_np3(path)
     convert_to_rrpreset(np3_data)
 
@@ -55,7 +58,7 @@ def convert_to_rrpreset(np3_data: Np3Data):
                             },
                         },
                         "colorNoiseReduction": 0,
-                        "contrast": np3_data.advanced_adjustments.contrast,
+                        "contrast": np3_data.advanced_adjustments.contrast + 50,
                         "curveMode": "point",
                         "curves": {
                             "blue": [{"x": 0, "y": 0}, {"x": 255, "y": 255}],
@@ -64,7 +67,7 @@ def convert_to_rrpreset(np3_data: Np3Data):
                             "red": [{"x": 0, "y": 0}, {"x": 255, "y": 255}],
                         },
                         "dehaze": 0,
-                        "exposure": 0,
+                        "exposure": 1.0,
                         "flareAmount": 0,
                         "glowAmount": 0,
                         "grainAmount": 0,
@@ -76,42 +79,43 @@ def convert_to_rrpreset(np3_data: Np3Data):
                             "aquas": {
                                 "hue": np3_data.color_blender.cyan.hue,
                                 "luminance": np3_data.color_blender.cyan.brightness,
-                                "saturation": np3_data.color_blender.cyan.chroma,
+                                "saturation": np3_data.color_blender.cyan.chroma + 10,
                             },
                             "blues": {
                                 "hue": np3_data.color_blender.blue.hue,
                                 "luminance": np3_data.color_blender.blue.brightness,
-                                "saturation": np3_data.color_blender.blue.chroma,
+                                "saturation": np3_data.color_blender.blue.chroma + 10,
                             },
                             "greens": {
-                                "hue": np3_data.color_blender.green.hue,
+                                "hue": np3_data.color_blender.green.hue + 10,
                                 "luminance": np3_data.color_blender.green.brightness,
-                                "saturation": np3_data.color_blender.green.chroma,
+                                "saturation": np3_data.color_blender.green.chroma + 10,
                             },
                             "magentas": {
                                 "hue": np3_data.color_blender.magenta.hue,
                                 "luminance": np3_data.color_blender.magenta.brightness,
-                                "saturation": np3_data.color_blender.magenta.chroma,
+                                "saturation": np3_data.color_blender.magenta.chroma
+                                + 10,
                             },
                             "oranges": {
                                 "hue": np3_data.color_blender.orange.hue,
                                 "luminance": np3_data.color_blender.orange.brightness,
-                                "saturation": np3_data.color_blender.orange.chroma,
+                                "saturation": np3_data.color_blender.orange.chroma + 10,
                             },
                             "purples": {
                                 "hue": np3_data.color_blender.purple.hue,
                                 "luminance": np3_data.color_blender.purple.brightness,
-                                "saturation": np3_data.color_blender.purple.chroma,
+                                "saturation": np3_data.color_blender.purple.chroma + 10,
                             },
                             "reds": {
                                 "hue": np3_data.color_blender.red.hue,
                                 "luminance": np3_data.color_blender.red.brightness,
-                                "saturation": np3_data.color_blender.red.chroma,
+                                "saturation": np3_data.color_blender.red.chroma + 10,
                             },
                             "yellows": {
                                 "hue": np3_data.color_blender.yellow.hue,
                                 "luminance": np3_data.color_blender.yellow.brightness,
-                                "saturation": np3_data.color_blender.yellow.chroma,
+                                "saturation": np3_data.color_blender.yellow.chroma + 10,
                             },
                         },
                         "hue": 0,
@@ -174,7 +178,7 @@ def convert_to_rrpreset(np3_data: Np3Data):
                             "luma": [{"x": 0, "y": 0}, {"x": 255, "y": 255}],
                             "red": [{"x": 0, "y": 0}, {"x": 255, "y": 255}],
                         },
-                        "saturation": np3_data.advanced_adjustments.saturation,
+                        "saturation": np3_data.advanced_adjustments.saturation + 20,
                         "shadows": np3_data.advanced_adjustments.shadows,
                         "sharpness": np3_data.basic_adjustments.sharpening,
                         "sharpnessThreshold": 15,

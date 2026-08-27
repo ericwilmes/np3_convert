@@ -3,7 +3,7 @@
     "presets": [
         {
             "preset": {
-                "id": "75d136cd-7f1a-478f-9628-459dde11a24f",
+                "id": "3897011d-aad2-4b81-9578-a91927292ee2",
                 "name": "CallItLove_Faloo Mi",
                 "adjustments": {
                     "blacks": 0,
@@ -46,7 +46,7 @@
                         }
                     },
                     "colorNoiseReduction": 0,
-                    "contrast": 0,
+                    "contrast": 50,
                     "curveMode": "point",
                     "curves": {
                         "blue": [
@@ -107,7 +107,7 @@
                         ]
                     },
                     "dehaze": 0,
-                    "exposure": 0,
+                    "exposure": 1.0,
                     "flareAmount": 0,
                     "glowAmount": 0,
                     "grainAmount": 0,
@@ -119,42 +119,42 @@
                         "aquas": {
                             "hue": 0,
                             "luminance": 0,
-                            "saturation": 0
+                            "saturation": 10
                         },
                         "blues": {
                             "hue": -26,
                             "luminance": 9,
-                            "saturation": 0
+                            "saturation": 10
                         },
                         "greens": {
-                            "hue": 21,
+                            "hue": 31,
                             "luminance": 20,
-                            "saturation": 21
+                            "saturation": 31
                         },
                         "magentas": {
                             "hue": 10,
                             "luminance": 0,
-                            "saturation": 4
+                            "saturation": 14
                         },
                         "oranges": {
                             "hue": 0,
                             "luminance": 15,
-                            "saturation": -5
+                            "saturation": 5
                         },
                         "purples": {
                             "hue": 0,
                             "luminance": 0,
-                            "saturation": 0
+                            "saturation": 10
                         },
                         "reds": {
                             "hue": 0,
                             "luminance": 0,
-                            "saturation": 0
+                            "saturation": 10
                         },
                         "yellows": {
                             "hue": 10,
                             "luminance": 4,
-                            "saturation": -7
+                            "saturation": 3
                         }
                     },
                     "hue": 0,
@@ -253,7 +253,7 @@
                             }
                         ]
                     },
-                    "saturation": 30,
+                    "saturation": 50,
                     "shadows": 0,
                     "sharpness": 2.0,
                     "sharpnessThreshold": 15,
